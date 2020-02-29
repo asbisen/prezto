@@ -22,6 +22,9 @@ setopt HIST_SAVE_NO_DUPS         # Do not write a duplicate event to the history
 setopt HIST_VERIFY               # Do not execute immediately upon history expansion.
 setopt HIST_BEEP                 # Beep when accessing non-existent history.
 
+# ABisen - for cleanly exiting from Docker
+setopt NOHIST_SAVE_BY_COPY
+
 #
 # Variables
 #
